@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    /* min-height: 100vh; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content:left;
+    gap: 15px;
+    align-items:center;
+    padding: 0px 200px 100px 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+
+}
+
+div.navbar p {
+    font-size: 18;
+    color: #E5E7EB;
+}
+
+.container-one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0px 200px 100px 200px;
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    gap: 50px;
+}
+
+.container-one .left {
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+    flex: auto;
+}
+
+.container-one .right {
+    /* background-color:#595b5e; */
+    display: flex;
+    align-items: start;
+    width: 250px;
+    height: 250px;
+    flex: auto;
+}
+
+.container-one .left p, .container-one .right p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-one .left .row-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0;
+}
+
+.container-one .left .row-two {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-one button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px 25px 10px 25px;
+    font-weight: 600;
+}
+
+.container-one img {
+    max-height: 200px;
+
+}
+
+
+
+.right p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-two .text {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.container-two .images {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.image {
+    max-width: 150px;
+}
+
+.image img {
+    max-width: 150px;
+    max-height: 150px;
+}
