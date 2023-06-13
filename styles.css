@@ -44,6 +44,8 @@ div.navbar p {
     width: 250px;
     height: 250px;
     flex: auto;
+    min-width: 400px;
+    max-width: 600px;
 }
 
 .container-one .right {
@@ -53,6 +55,8 @@ div.navbar p {
     width: 250px;
     height: 250px;
     flex: auto;
+    min-width: 400px;
+    max-width: 600px;
 }
 
 .container-one .left p, .container-one .right p {
